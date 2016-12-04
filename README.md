@@ -1,2 +1,2 @@
 # kotlin MVP
-use RX, retrofit, and clean code MVP
+use kotlin extension, RX, retrofit, and clean code MVP
