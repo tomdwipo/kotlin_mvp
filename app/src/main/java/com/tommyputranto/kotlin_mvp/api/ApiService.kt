@@ -1,6 +1,6 @@
-package com.tommyputranto.kotlin_mvp.MVP.api
+package com.tommyputranto.kotlin_mvp.api
 
-import com.tommyputranto.kotlin_mvp.MVP.model.list.ListDao
+import com.tommyputranto.kotlin_mvp.model.list.ListDao
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

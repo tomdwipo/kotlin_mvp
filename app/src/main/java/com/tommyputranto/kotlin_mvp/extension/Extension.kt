@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.MVP.extension
+package com.tommyputranto.kotlin_mvp.extension
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

@@ -1,8 +1,8 @@
 package com.tommyputranto.kotlin_mvp.MVP.home
 
-import com.tommyputranto.kotlin_mvp.MVP.api.GeneralErrorHandler
+import com.tommyputranto.kotlin_mvp.api.GeneralErrorHandler
 import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpPresenterImpl
-import com.tommyputranto.kotlin_mvp.MVP.manager.ApiManager
+import com.tommyputranto.kotlin_mvp.manager.ApiManager
 import rx.functions.Action1
 
 /**

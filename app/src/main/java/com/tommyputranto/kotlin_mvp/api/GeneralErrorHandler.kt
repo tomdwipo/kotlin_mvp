@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.MVP.api
+package com.tommyputranto.kotlin_mvp.api
 
 import android.support.annotation.StringRes
 import android.text.TextUtils

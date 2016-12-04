@@ -1,9 +1,9 @@
-package com.tommyputranto.kotlin_mvp.MVP.api
+package com.tommyputranto.kotlin_mvp.api
 
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
 import com.google.gson.reflect.TypeToken
-import com.tommyputranto.kotlin_mvp.MVP.extension.fromJson
+import com.tommyputranto.kotlin_mvp.extension.fromJson
 import retrofit2.Response
 import java.io.IOException
 

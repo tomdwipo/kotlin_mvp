@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.MVP.model.list
+package com.tommyputranto.kotlin_mvp.model.list
 
 import com.google.gson.annotations.SerializedName
 

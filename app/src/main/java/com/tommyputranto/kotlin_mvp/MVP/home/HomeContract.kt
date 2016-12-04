@@ -2,7 +2,7 @@ package com.tommyputranto.kotlin_mvp.MVP.home
 
 import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpPresenter
 import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpView
-import com.tommyputranto.kotlin_mvp.MVP.model.list.ListDao
+import com.tommyputranto.kotlin_mvp.model.list.ListDao
 
 /**
  * Created by gits on 12/1/16.
