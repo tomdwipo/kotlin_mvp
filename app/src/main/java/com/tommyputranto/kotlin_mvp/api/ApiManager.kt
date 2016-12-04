@@ -1,7 +1,7 @@
-package com.tommyputranto.kotlin_mvp.manager
+package com.tommyputranto.kotlin_mvp.api
 
 import com.google.gson.GsonBuilder
-import com.tommyputranto.kotlin_mvp.api.ApiService
+import com.tommyputranto.kotlin_mvp.api.core.ApiService
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.api
+package com.tommyputranto.kotlin_mvp.api.core
 
 /**
  * Created by gits on 12/4/16.

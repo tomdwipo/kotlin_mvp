@@ -1,9 +1,10 @@
-package com.tommyputranto.kotlin_mvp.api
+package com.tommyputranto.kotlin_mvp.api.core
 
 import android.support.annotation.StringRes
 import android.text.TextUtils
 import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpView
 import com.tommyputranto.kotlin_mvp.R
+import com.tommyputranto.kotlin_mvp.api.core.ErrorBody
 import retrofit2.adapter.rxjava.HttpException
 import rx.functions.Action1
 import java.lang.ref.WeakReference

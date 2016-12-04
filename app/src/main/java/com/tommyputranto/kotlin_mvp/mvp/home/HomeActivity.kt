@@ -5,8 +5,8 @@ import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.View
 import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpActivity
-import com.tommyputranto.kotlin_mvp.model.list.Data
-import com.tommyputranto.kotlin_mvp.model.list.ListDao
+import com.tommyputranto.kotlin_mvp.api.dao.list.Data
+import com.tommyputranto.kotlin_mvp.api.dao.list.ListDao
 import com.tommyputranto.kotlin_mvp.R
 import kotlinx.android.synthetic.main.home_activity.*
 import java.util.*
@@ -24,6 +24,7 @@ class HomeActivity  : BaseMvpActivity<HomeContract.View,
         mAdapter?.notifyDataSetChanged()
         hideProgress()
     }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

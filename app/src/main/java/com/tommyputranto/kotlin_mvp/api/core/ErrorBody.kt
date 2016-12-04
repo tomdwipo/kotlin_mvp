@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.api
+package com.tommyputranto.kotlin_mvp.api.core
 
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName

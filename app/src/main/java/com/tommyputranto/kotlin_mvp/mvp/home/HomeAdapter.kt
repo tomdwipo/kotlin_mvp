@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.squareup.picasso.Picasso
-import com.tommyputranto.kotlin_mvp.model.list.Data
-import com.tommyputranto.kotlin_mvp.model.list.ListDao
+import com.tommyputranto.kotlin_mvp.api.dao.list.Data
+import com.tommyputranto.kotlin_mvp.api.dao.list.ListDao
 import com.tommyputranto.kotlin_mvp.R
 import kotlinx.android.synthetic.main.home_item.view.*
 
