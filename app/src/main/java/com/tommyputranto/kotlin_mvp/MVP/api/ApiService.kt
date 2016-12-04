@@ -10,7 +10,7 @@ import rx.Observable
  * Created by gits on 12/4/16.
  */
 interface ApiService {
-    
+
     @GET(ApiSettings.LIST)
     fun getList(): Observable<ListDao>
 
