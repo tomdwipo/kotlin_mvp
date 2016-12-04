@@ -19,6 +19,7 @@ class GeneralErrorHandler(view: BaseMvpView? = null,
                           val onFailure: (Throwable, ErrorBody?, Boolean) -> Unit)
     : Action1<Throwable> {
 
+
     private val mViewReference: WeakReference<BaseMvpView>
 
     init {
@@ -41,6 +42,7 @@ class GeneralErrorHandler(view: BaseMvpView? = null,
     }
 
     private fun isNetworkError(throwable: Throwable): Boolean {
+
         return throwable is SocketException ||
                 throwable is UnknownHostException ||
                 throwable is SocketTimeoutException
