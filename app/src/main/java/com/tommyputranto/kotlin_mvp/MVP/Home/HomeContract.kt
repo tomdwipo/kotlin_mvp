@@ -1,7 +1,8 @@
-package com.tommyputranto.kotlin_mvp.MVP.Home
+package com.tommyputranto.kotlin_mvp.MVP.home
 
-import com.tommyputranto.kotlin_mvp.MVP.Base.BaseMvpPresenter
-import com.tommyputranto.kotlin_mvp.MVP.Base.BaseMvpView
+import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpPresenter
+import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpView
+import com.tommyputranto.kotlin_mvp.MVP.model.list.ListDao
 
 /**
  * Created by gits on 12/1/16.
@@ -9,10 +10,9 @@ import com.tommyputranto.kotlin_mvp.MVP.Base.BaseMvpView
 object HomeContract {
 
     interface View : BaseMvpView {
-        fun showText(text:String)
+        fun showList(list: ListDao)
     }
-
     interface Presenter : BaseMvpPresenter<View> {
-        fun loadText()
+        fun loadList()
     }
 }
