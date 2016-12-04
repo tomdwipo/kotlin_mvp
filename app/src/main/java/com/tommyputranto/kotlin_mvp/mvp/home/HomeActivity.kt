@@ -1,10 +1,10 @@
-package com.tommyputranto.kotlin_mvp.MVP.home
+package com.tommyputranto.kotlin_mvp.mvp.home
 
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.View
-import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpActivity
+import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpActivity
 import com.tommyputranto.kotlin_mvp.model.list.Data
 import com.tommyputranto.kotlin_mvp.model.list.ListDao
 import com.tommyputranto.kotlin_mvp.R

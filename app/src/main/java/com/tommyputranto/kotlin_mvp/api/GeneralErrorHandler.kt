@@ -2,7 +2,7 @@ package com.tommyputranto.kotlin_mvp.api
 
 import android.support.annotation.StringRes
 import android.text.TextUtils
-import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpView
+import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpView
 import com.tommyputranto.kotlin_mvp.R
 import retrofit2.adapter.rxjava.HttpException
 import rx.functions.Action1

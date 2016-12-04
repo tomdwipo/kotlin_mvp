@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.MVP.home
+package com.tommyputranto.kotlin_mvp.mvp.home
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater

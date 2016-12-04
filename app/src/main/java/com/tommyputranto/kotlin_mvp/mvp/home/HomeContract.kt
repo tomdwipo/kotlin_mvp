@@ -1,7 +1,7 @@
-package com.tommyputranto.kotlin_mvp.MVP.home
+package com.tommyputranto.kotlin_mvp.mvp.home
 
-import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpPresenter
-import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpView
+import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpPresenter
+import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpView
 import com.tommyputranto.kotlin_mvp.model.list.ListDao
 
 /**

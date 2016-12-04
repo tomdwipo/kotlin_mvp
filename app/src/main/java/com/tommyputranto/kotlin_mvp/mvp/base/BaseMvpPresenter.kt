@@ -1,6 +1,6 @@
-package com.tommyputranto.kotlin_mvp.MVP.base
+package com.tommyputranto.kotlin_mvp.mvp.base
 
-import com.tommyputranto.kotlin_mvp.MVP.base.BaseMvpView
+import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpView
 
 /**
  * Created by gits on 12/1/16.

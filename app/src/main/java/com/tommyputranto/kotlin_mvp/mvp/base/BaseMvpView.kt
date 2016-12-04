@@ -1,4 +1,4 @@
-package com.tommyputranto.kotlin_mvp.MVP.base
+package com.tommyputranto.kotlin_mvp.mvp.base
 
 import android.content.Context
 import android.support.annotation.StringRes
