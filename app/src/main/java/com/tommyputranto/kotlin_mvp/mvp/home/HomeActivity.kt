@@ -1,13 +1,16 @@
 package com.tommyputranto.kotlin_mvp.mvp.home
 
 import android.os.Bundle
+import android.support.design.widget.Snackbar
 import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import com.tommyputranto.kotlin_mvp.mvp.base.BaseMvpActivity
 import com.tommyputranto.kotlin_mvp.api.dao.list.Data
 import com.tommyputranto.kotlin_mvp.api.dao.list.ListDao
 import com.tommyputranto.kotlin_mvp.R
+import com.tommyputranto.kotlin_mvp.extension.textError
 import kotlinx.android.synthetic.main.home_activity.*
 import java.util.*
 
@@ -17,6 +20,7 @@ import java.util.*
 class HomeActivity  : BaseMvpActivity<HomeContract.View,
         HomeContract.Presenter>(),
         HomeContract.View {
+
     private var mAdapter: HomeAdapter? = null
     override var mPresenter: HomeContract.Presenter = HomePresenter()
     override fun showList(list: ListDao) {
@@ -54,9 +58,9 @@ class HomeActivity  : BaseMvpActivity<HomeContract.View,
         recyclerview.visibility = View.GONE
         pageloader.stopProgressAndFailed()
     }
-
-    override fun showError(error: String?) {
-        super.showError(error)
+    override fun showErrorMessage(text: String?) {
+        textError(text, this)
         stopProggress()
     }
+
 }

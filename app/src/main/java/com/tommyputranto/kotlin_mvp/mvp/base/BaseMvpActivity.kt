@@ -39,10 +39,10 @@ abstract class BaseMvpActivity<in V : BaseMvpView, T : BaseMvpPresenter<V>>
     }
 
     override fun showError(stringResId: Int) {
-        Toast.makeText(this, stringResId, Snackbar.LENGTH_LONG).show()
+        Toast.makeText(this, this.getString(stringResId), Snackbar.LENGTH_LONG).show()
     }
 
     override fun showMessage(srtResId: Int) {
-        Toast.makeText(this, srtResId, Snackbar.LENGTH_LONG).show()
+        Toast.makeText(this, this.getString(srtResId), Snackbar.LENGTH_LONG).show()
     }
 }
